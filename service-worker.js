@@ -2,8 +2,7 @@ const CACHE_NAME = "husbandwaifu-cache-v1";
 const urlsToCache = [
   "/HusbandWaifuREAL/",
   "/HusbandWaifuREAL/index.html",
-  "/HusbandWaifuREAL/styles.css",
-  "/HusbandWaifuREAL/script.js"
+  "/HusbandWaifuREAL/styles.css"
 ];
 
 self.addEventListener("install", (event) => {
