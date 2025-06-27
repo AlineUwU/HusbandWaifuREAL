@@ -1,97 +1,26 @@
-/* General Reset */
+/* Reset básico */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Fondo con gradiente suave */
+/* Fondo adorable */
 body {
-  font-family: 'Arial', sans-serif;
-  background: linear-gradient(180deg, #fad0c4, #ff9a9e);
-  color: #333;
-  text-align: center;
+  background: linear-gradient(135deg, #ffe3f1, #fbeaff, #e6f4ff);
+  font-family: 'Comic Sans MS', 'Trebuchet MS', cursive, sans-serif;
+  color: #5b5b5b;
   min-height: 100vh;
+  text-align: center;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-/* Contenedor principal */
+/* Contenedor con aura mágica */
 .container {
-  background: rgba(255, 255, 255, 0.8);
-  border-radius: 15px;
-  padding: 20px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  max-width: 800px;
-  width: 90%;
-  margin: 20px auto;
-}
-
-/* Título llamativo */
-h1 {
-  font-size: 3rem; /* Tamaño grande */
-  font-weight: bold; /* Negrita */
-  text-align: center; /* Centrado */
-  letter-spacing: 1px; /* Espaciado entre letras */
-  background: linear-gradient(90deg, #ff9a9e, #fad0c4); /* Gradiente en el texto */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra definida */
-  margin-bottom: 10px;
-}
-
-/* Subtítulo */
-p {
-  font-size: 1.2rem;
-  color: #555;
-  margin-bottom: 20px;
-}
-
-/* Botones */
-button {
-  background: linear-gradient(90deg, #ff9a9e, #fad0c4);
-  border: none;
-  border-radius: 25px;
-  padding: 10px 20px;
-  font-size: 1.2rem;
-  font-weight: bold;
-  color: #fff;
-  cursor: pointer;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s, box-shadow 0.2s;
-}
-
-button:hover {
-  transform: scale(1.1);
-  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
-}
-
-/* Inputs y select */
-input, select {
-  padding: 10px;
-  border: 1px solid #ddd;
-  border-radius: 5px;
-  font-size: 1rem;
-  margin: 5px 0;
-  width: 100%;
-  max-width: 300px;
-}
-
-/* Etiquetas */
-label {
-  font-size: 1rem;
-  font-weight: bold;
-  color: #333;
-  margin-bottom: 5px;
-  display: block;
-}
-
-/* Footer */
-footer {
-  margin-top: auto;
-  font-size: 0.9rem;
-  color: #777;
-  opacity: 0.8;
-}
+  background: rgba(255, 255, 255, 0.85);
+  border: 3px dashed #ffb3e6;
+  border-radius
