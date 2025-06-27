@@ -158,13 +158,14 @@
        
          <script src="script.js" defer></script>
     <script>
-        if ('serviceWorker' in navigator) {
-            window.addEventListener('load', () => {
-                navigator.serviceWorker.register('/HusbandWaifuREAL/service-worker.js')
-                    .then(reg => console.log('✅ Service Worker registrado:', reg.scope))
-                    .catch(err => console.error('❌ Error registrando el Service Worker:', err));
-            });
-        }
-    </script>
+    if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+            navigator.serviceWorker.register('/HusbandWaifuREAL/service-worker.js')
+                .then(reg => console.log('✅ Service Worker registrado:', reg.scope))
+                .catch(err => console.error('❌ Error registrando el Service Worker:', err));
+        }); // <- ESTE PARÉNTESIS FALTABA
+    }
+</script>
+
 </body>
 </html>
