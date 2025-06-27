@@ -5,7 +5,6 @@ const urlsToCache = [
   "/HusbandWaifuREAL/styles.css",
   "/HusbandWaifuREAL/script.js",
 ];
-];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
