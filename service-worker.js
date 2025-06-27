@@ -3,7 +3,7 @@ const urlsToCache = [
   "/HusbandWaifuREAL/",
   "/HusbandWaifuREAL/index.html",
   "/HusbandWaifuREAL/styles.css",
-  "/HusbandWaifuREAL/script.js",
+  "/HusbandWaifuREAL/script.js"
 ];
 
 self.addEventListener("install", (event) => {
